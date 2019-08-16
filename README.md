@@ -91,10 +91,10 @@ UpdateAddressListVisibility -GroupID GroupA -HistoryFile C:\history\GroupA-Histo
 This example gets the current members of GroupA, compare it with the previous member list GroupA, and then perform the hide or unhide depending on membership changes.
 
 #### Example run with no changes
-![Without Change](images/with-change-example.png)
+![Without Change](images/without-change-example.png)
 
 #### Example run with changes
-![With Change](images/no-change-example.png)
+![With Change](images/hide-unhide-example.png)
 
 
 
