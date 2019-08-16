@@ -71,7 +71,18 @@ You can install this several ways
 ![Module Install Path](images/module-install-path.png)
 
 ### ONLINE FROM POWERSHELL GALLERY
-Pending :)
+If you have PowerShell version 5.0+
+```
+Install-Module -Name ExchangeAddressListVisibilityWatcher
+```
+
+### VERIFY INSTALLATION
+```
+Get-Module ExchangeAddressListVisibilityWatcher -ListAvailable
+```
+
+![Verify Installation](images/module-install-verify.png)
+
 
 ## HOW TO USE
 ### Create initial membership history file
@@ -98,4 +109,4 @@ This example gets the current members of GroupA, compare it with the previous me
 
 
 
-
+https://lazyexchangeadmin.com
