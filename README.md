@@ -55,3 +55,14 @@ UpdateAddressListVisibility [-GroupID] <string>
  [<CommonParameters>]
 ```
 
+## DESCRIPTION
+You need to be assigned permissions before you can use this function properly. This module requires the ActiveDirectory Module and the Microsoft.Exchange.Management.PowerShell.E2010 Snap-In - which is included in the Exchange Management Tools.
+
+## HOW TO INSTALL
+You can install this several ways
+
+## MANUAL FROM GITHUB
+1. Download the code (zip)
+2. Extract to your chosen $env:PSModulePath (eg. C:\Program Files\WindowsPowerShell\Modules)
+3. The folder structure must be "\ExchangeAddressListVisibilityWatcher\<version>" (eg. C:\Program Files\WindowsPowerShell\Modules\\ExchangeAddressListVisibilityWatcher\1.0)
+
