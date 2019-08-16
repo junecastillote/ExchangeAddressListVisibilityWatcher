@@ -61,7 +61,7 @@ You need to be assigned permissions before you can use this function properly. T
 ## HOW TO INSTALL
 You can install this several ways
 
-## MANUAL FROM GITHUB
+### MANUAL FROM GITHUB
 1. Download the code (zip)
 2. Extract to your chosen $env:PSModulePath
     - (eg. C:\Program Files\WindowsPowerShell\Modules)
@@ -69,4 +69,33 @@ You can install this several ways
     - (eg. C:\Program Files\WindowsPowerShell\Modules\ExchangeAddressListVisibilityWatcher\1.0)
 
 ![Module Install Path](images/module-install-path.png)
+
+### ONLINE FROM POWERSHELL GALLERY
+Pending :)
+
+## HOW TO USE
+### Create initial membership history file
+```
+GetCurrentGroupMembers -GroupID GroupA | Out-File C:\history\GroupA-History.txt
+```
+
+Under normal circumstances, you only this to do this once for each group you want to watch.
+This example gets the member list of the group GroupA and save to file C:\history\GroupA-History.txt
+![History File](images/history-file-example.png)
+
+### Run the update
+```
+UpdateAddressListVisibility -GroupID GroupA -HistoryFile C:\history\GroupA-History.txt
+```
+
+This example gets the current members of GroupA, compare it with the previous member list GroupA, and then perform the hide or unhide depending on membership changes.
+
+#### Example run with no changes
+![Without Change](images/with-change-example.png)
+
+#### Example run with changes
+![With Change](images/no-change-example.png)
+
+
+
 
