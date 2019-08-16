@@ -68,3 +68,5 @@ You can install this several ways
 3. The folder structure must be "\ExchangeAddressListVisibilityWatcher\<version>"
     - (eg. C:\Program Files\WindowsPowerShell\Modules\ExchangeAddressListVisibilityWatcher\1.0)
 
+![Module Install Path](images/module-install-path.png)
+
