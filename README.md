@@ -63,6 +63,8 @@ You can install this several ways
 
 ## MANUAL FROM GITHUB
 1. Download the code (zip)
-2. Extract to your chosen $env:PSModulePath (eg. C:\Program Files\WindowsPowerShell\Modules)
-3. The folder structure must be "\ExchangeAddressListVisibilityWatcher\<version>" (eg. C:\Program Files\WindowsPowerShell\Modules\\ExchangeAddressListVisibilityWatcher\1.0)
+2. Extract to your chosen $env:PSModulePath
+        (eg. C:\Program Files\WindowsPowerShell\Modules)
+3. The folder structure must be "\ExchangeAddressListVisibilityWatcher\<version>"
+        (eg. C:\Program Files\WindowsPowerShell\Modules\ExchangeAddressListVisibilityWatcher\1.0)
 
